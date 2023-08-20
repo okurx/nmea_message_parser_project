@@ -16,7 +16,7 @@
 // $GPROT,35.6,A*4E
 //
 // Feel free to use and modify this code for your own projects. If you have any questions or suggestions,
-// please reach out to me at [burak1837burak@gmail.com].
+// Please reach out to me at [burak1837burak@gmail.com].
 
 #include "mainwindow.h"
 #include "ui_mainwindow.h"

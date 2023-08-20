@@ -1,6 +1,6 @@
 # NMEA Message Parser Project
 
-This project provides a parser for NMEA sentences, with support for the GPRMC and GPROT sentence types.
+This project provides a parser for NMEA sentences.
 
 ## Supported Sentences
 
@@ -19,7 +19,8 @@ $GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A
 ### GPROT
 $GPROT,35.6,A*4E
 
-You can also use multiple messages in one go:  
+**You can also use multiple messages in one go**:  
+
 `$GPROT,55.5,A*4<CR>LF>$GPROT,35.6,A*4E`  
 `$GPROT,35.6,A*4<CR><LF>$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A`  
 `$GPROT,55.5,A*4<CR>LF>$GPROT,35.6,A*4E<CR>LF>$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A`  

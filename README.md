@@ -29,5 +29,8 @@ Remember to include `<CR><LF>` or line breaks between each message if needed.
 
 Feel free to contribute and expand the project by adding support for more NMEA sentence types or enhancing the parsing logic!
 
+## Screenshot 
+![Screenshot 1](pictures/ss4.png)
+
 
 
